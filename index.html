@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Workshop Page</title>
+    <title>Robotic Systems in the Edge-Cloud Continuum (RISE) 2025</title>
+    <link rel="icon" href="rise-icon.png" type="image/png">
     <style>
         body {
             margin: 0;
@@ -32,17 +33,19 @@
 		}
 
         /* Title Section */
+
         .title-section {
-            height: 300px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            background-image: url('background02.png'); /* Replace with your image URL */
-            background-size: cover;
-            background-position: center;
-            color: white;
-            text-align: center;
-        }
+		    height: 300px;
+		    display: flex;
+		    flex-direction: column; /* Stack child elements vertically */
+		    justify-content: center; /* Center vertically */
+		    align-items: center; /* Center horizontally */
+		    background-image: url('background02.png'); /* Replace with your image URL */
+		    background-size: cover;
+		    background-position: center;
+		    color: white;
+		    text-align: center;
+		}
 
         .title-section h1 {
             font-size: 48px;
@@ -64,7 +67,6 @@
     <!-- Navigation -->
     <nav>
         <a href="#call">Call for papers</a>
-        <a href="#speakers">Speakers</a>
 		<a href="#dates">Important Dates</a>
 		<a href="#submission">Submission Guidelines</a>
 		<a href="#committee">Committee</a>
@@ -77,26 +79,22 @@
     <!-- Title Section -->
     <div class="title-section">
         <h1>
-        	RobotIc Systems in the Edge-Cloud Continuum (RISE) 2025
+        	Robotic Systems in the Edge-Cloud Continuum (RISE) 2025
         </h1>
-    </div>
-
-    <div class="title-section">
-        
+        <br>
         <h3>
         	Workshop of IEEE International Symposium on Cluster, Cloud and Grid Computing (CCGRID) 2025
         </h3>
     </div>
-
     <!-- Content Section -->
     <div class="content-section">
-        <p>
-        </p>
-        <h3 id="call">Call for papers</h3>
+        <section id="call">
+        <br>
+        <h3>Call for papers</h3>
         <p>
  			Recent advancements in robotics, including autonomous vehicles e.g. UAVs, alongside edge and cloud computing, have paved the way for developing sophisticated robotic systems that harness these technologies.
 
-			The RobotIc Systems in the Edge-Cloud Continuum (RISE) workshop brings together leading academics and industry professionals to explore how robotic systems can be designed, implemented, and optimized through the edge-cloud continuum. This workshop also focuses on how hyper-distributed applications’ workloads and data that originate from robots and their sensors, should be processed and stored across devices, multiple edge computing layers, and centralized cloud resources.
+			The Robotic Systems in the Edge-Cloud Continuum (RISE) workshop brings together leading academics and industry professionals to explore how robotic systems can be designed, implemented, and optimized through the edge-cloud continuum. This workshop also focuses on how hyper-distributed applications’ workloads and data that originate from robots and their sensors, should be processed and stored across devices, multiple edge computing layers, and centralized cloud resources.
 		</p>
 		<p>	
 			The RISE workshop is co-organized by the EMPYREAN project.
@@ -121,30 +119,40 @@
 				<li> Use of hardware accelerators (GPU, DPU, FPGA) </li>
 				<li> Robotic applications utilizing the continuum </li>
 		    </ul>
-        </p>	
-        <h3 id="dates">Important Dates</h3>
+        </p>
+        </section>
+
+        <section id="dates">
+        <br>	
+        <h3 id="">Important Dates</h3>
         <p>
             TBA
         </p>
-        <h3 id="submission">Submission Guidelines</h3>
+        </section>
+
+        <section id="submission">
+        <br>
+        <h3>Submission Guidelines</h3>
         <p>
             TBA
         </p>
+        </section>
 
-
-        <h3 id="committee">Workshop Committee</h3>
+        <section id="committee">
+        <br>
+        <h3>Workshop Committee</h3>
 
        	<h3>Organizers</h3>
 
         <p>
-        Professor Emmanouel Varvarigos, Institute of Communications and Computers Systems, NTUA, Greece (vmanos@mail.ntua.gr)
-		Professor George Nikolakopoulos, Luleå University of Technology, Luleå, Sweden (george.nikolakopoulos@ltu.se)
-		Professor Georgios Ellinas, KIOS Center of Excellence, University of Cyprus, Cyprus (ellinas.georgios@ucy.ac.cy)
-
+       	<ul>
+	        <li> Professor Emmanouel Varvarigos, Institute of Communications and Computers Systems, NTUA, Greece (vmanos@mail.ntua.gr)</li>
+	        <li>Professor George Nikolakopoulos, Luleå University of Technology, Luleå, Sweden (george.nikolakopoulos@ltu.se)</li>
+	        <li>Professor Georgios Ellinas, KIOS Center of Excellence, University of Cyprus, Cyprus (ellinas.georgios@ucy.ac.cy)</li>
+		</ul>
         </p>
 
        	<h3>Committee</h3>
-
         <p>
 	    <ul>
 	        <li>Panayiotis Kolios, KIOS Center of Excellence, University of Cyprus, Cyprus</li>
@@ -173,22 +181,42 @@
 	        <li>Anastasios Kazolias, University of Peloponnese, Greece</li>
 	    </ul>
         </p>
-        <h3 id="keynote">Keynote Speakers</h3>
+    	</section>
+
+    	<section id="keynote">
+        <br>
+        <h3>Keynote Speakers</h3>
         <p>
         	TBA
         </p>
-        <h3 id="program">Program</h3>
+        </section>
+
+        <section id="program">
+        <br>
+        <h3>Program</h3>
         <p>
             TBA
         </p>
-        <h3 id="contact">Contact Information</h3>
+        </section>
+
+        <section id="contact">
+        <br>
+        <h3>Contact Information</h3>
         <p>
             For any question or doubt, please reach us at kokkinop@mail.ntua.gr, akretsis@mail.ntua.gr
         </p>
-        <h3 id="supporters">Supporters</h3>
+    	</section>
+
+        <section id="supporters">
+        <br>
+        <h3>Supporters</h3>
         <p>
-            EMPYREAN
+            EMPYREAN (<a href="empyrean-horizon.eu">empyrean-horizon.eu</a>) - European Union’s Horizon Research & Innovation Action (RIA) program under grant agreement No 101136024.
+            <br>
+            <img src="empyrean.png" alt="EMPYREAN EU project" style="max-width: 40%; height: auto;" />
         </p>
+    	</section>
+
     </div>
 </body>
 </html>
