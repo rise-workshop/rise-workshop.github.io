@@ -1,7 +1,100 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Workshop Page</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        /* Navigation Bar */
+        nav {
+            background-color: #333;
+            padding: 10px 20px;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 16px;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        /* Title Section */
+        .title-section {
+            height: 300px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-image: url('background.jpg'); /* Replace with your image URL */
+            background-size: cover;
+            background-position: center;
+            color: white;
+            text-align: center;
+        }
+
+        .title-section h1 {
+            font-size: 48px;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+        }
+
+        /* Content Section */
+        .content-section {
+            padding: 20px;
+            max-width: 800px;
+            margin: 20px auto;
+            line-height: 1.6;
+            font-size: 18px;
+        }
+    </style>
+</head>
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+    <!-- Navigation -->
+    <nav>
+        <a href="#about">About</a>
+        <a href="#schedule">Schedule</a>
+        <a href="#speakers">Speakers</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <!-- Title Section -->
+    <div class="title-section">
+        <h1>Workshop Title</h1>
+    </div>
+
+    <!-- Content Section -->
+    <div class="content-section">
+        <h2>Welcome to the Workshop</h2>
+        <p>
+            This is where you can add content about the workshop. 
+            Use this section to introduce the workshop, explain its objectives, and provide any relevant details.
+        </p>
+        <h3 id="about">About the Workshop</h3>
+        <p>
+            Here you can describe the theme of the workshop, who it's for, and what attendees can expect to learn.
+        </p>
+        <h3 id="schedule">Workshop Schedule</h3>
+        <p>
+            List the schedule or agenda for the workshop here. Include times, topics, and speakers.
+        </p>
+        <h3 id="speakers">Speakers</h3>
+        <p>
+            Highlight the speakers and their credentials. Share short bios and photos if available.
+        </p>
+        <h3 id="contact">Contact Information</h3>
+        <p>
+            Provide details on how attendees can get in touch for further information or questions.
+        </p>
+    </div>
 </body>
 </html>
