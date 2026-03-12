@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Robotic Systems in the Edge-Cloud Continuum (RISE) 2025</title>
+    <link rel="icon" href="rise_icon.png" type="image/png">
+    <style>
+        /* General Styling */
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+        }
+
+        /* Navigation Bar */
+        nav {
+            background-color: #333;
+            padding: 10px 20px;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            display: flex;
+            flex-wrap: wrap; /* Allows wrapping on small screens */
+            justify-content: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 5px 10px; /* Adjusted for spacing on small screens */
+            font-size: 14px;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        /* Title Section */
+        .title-section {
+            height: auto; /* Auto height for flexibility */
+            padding: 20px; /* Padding for mobile */
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background-image: url('background02.png');
+            background-size: cover;
+            background-position: center;
+            color: white;
+            text-align: center;
+        }
+
+        .title-section h1 {
+            font-size: 2.5rem; /* Scalable font size */
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+            margin: 10px 0;
+            word-break: break-word; /* Ensure long words break */
+        }
+
+        .title-section h3 {
+            font-size: 1.2rem; /* Scalable font size for mobile */
+            margin: 10px 0;
+        }
+
+        /* Content Section */
+        .content-section {
+            padding: 20px;
+            max-width: 800px;
+            margin: 20px auto;
+            font-size: 1rem;
+            text-align: justify;
+        }
+
+        /* Responsive Images */
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            nav a {
+                font-size: 12px; /* Smaller font for links */
+                margin: 5px; /* Adjusted spacing */
+            }
+
+            .title-section h1 {
+                font-size: 2rem; /* Reduce size for mobile */
+            }
+
+            .title-section h3 {
+                font-size: 1rem; /* Adjust size */
+            }
+
+            .content-section {
+                padding: 10px; /* Reduce padding */
+                font-size: 0.9rem; /* Slightly smaller text */
+            }
+        }
+
+        @media (max-width: 480px) {
+            .title-section h1 {
+                font-size: 1.5rem; /* Further reduce size for very small screens */
+            }
+
+            .title-section h3 {
+                font-size: 0.9rem;
+            }
+
+            nav a {
+                font-size: 10px;
+                margin: 2px;
+            }
+        }
+        /* General button styles */
+        .submit-btn {
+            background-color: #007BFF; /* Default green color */
+            color: white; /* Text color */
+            border: none; /* No border */
+            padding: 15px 30px; /* Button padding */
+            font-size: 16px; /* Font size */
+            border-radius: 5px; /* Rounded corners */
+            cursor: pointer; /* Pointer cursor on hover */
+            transition: background-color 0.3s, transform 0.2s; /* Smooth hover effects */
+        }
+
+        /* Hover effects */
+        .submit-btn:hover {
+            background-color: #0056b3; /* Slightly darker green on hover */
+            transform: scale(1.05); /* Slightly enlarge the button */
+        }
+
+        /* Active effects */
+        .submit-btn:active {
+            background-color: #3e8e41; /* Even darker green on click */
+            transform: scale(0.98); /* Slightly shrink the button on click */
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <a href="#call">Call for papers</a>
+		<a href="#dates">Important Dates</a>
+		<a href="#submission">Submission Guidelines</a>
+		<a href="#committee">Committee</a>
+		<a href="#keynote">Keynote Speakers</a>
+		<a href="#program">Program</a>
+		<a href="#contact">Contact Information</a>
+		<a href="#supporters">Supporters</a>
+    </nav>
+
+    <!-- Title Section -->
+    <div class="title-section">
+        <h1>
+        	Robotic Systems <br> in the Edge-Cloud Continuum (RISE) 2025
+        </h1>
+        <br>
+        <h3>
+        	Workshop of the IEEE International Symposium on Cluster, Cloud and Grid Computing (CCGRID) 2025
+        </h3>
+    </div>
+    <!-- Content Section -->
+    <div class="content-section">
+        <section id="call">
+        <br>
+        <h3>Call for papers</h3>
+        <p>
+ 			Recent advancements in robotics, including autonomous vehicles e.g. UAVs, alongside edge and cloud computing, have paved the way for developing sophisticated robotic systems that harness these technologies.
+
+			The Robotic Systems in the Edge-Cloud Continuum (RISE) workshop brings together leading academics and industry professionals to explore how robotic systems can be designed, implemented, and optimized through the edge-cloud continuum. This workshop also focuses on how hyper-distributed applications’ workloads and data that originate from robots and their sensors, should be processed and stored across devices, multiple edge computing layers, and centralized cloud resources.
+		</p>
+		<p>	
+			The RISE workshop is co-organized by the <a href="https://empyrean-horizon.eu" target="_blank">EMPYREAN</a> project.
+		</p>
+
+        <h3>Topics of Interest</h3>
+		<p>	
+			We invite submissions of original research, work-in-progress, and proof-of-concept studies introducing novel ideas and innovative directions. We welcome submissions addressing the design, development, and evaluation of architectures, technologies, and applications for robots utilizing the edge-edge continuum, including but not limited to:
+		</p>	
+		<p>
+			<ul>
+				<li> Data processing and storage </li>
+				<li> Distributed and collaborative robotics </li>
+				<li> IoT, edge-cloud and robotics </li>
+				<li> AI and machine learning for robotic operations </li>
+				<li> Cybersecurity in edge-cloud and robotics </li>
+				<li> Edge-cloud networking </li>
+				<li> Autonomous system control and automation </li>
+				<li> Digital twins for robotics </li>
+				<li> Resource orchestration </li>
+				<li> Processing of sensor data (e.g., LIDAR) within the continuum </li>
+				<li> Use of hardware accelerators (GPU, DPU, FPGA) </li>
+				<li> Robotic applications utilizing the continuum </li>
+		    </ul>
+        </p>
+
+        <div style="text-align: center; margin-top: 50px;">
+            <a href="https://easychair.org/my/conference?conf=ccgrid2025workshops" class="submit-btn" target="_blank">Submit Paper</a>
+        </div>
+        </section>
+
+        <section id="dates">
+        <br>	
+        <h3 id="">Important Dates</h3>
+        <p>
+        Paper submission deadline: <del>February 14th, 2025</del> February 21st, 2025<br>
+        Acceptance notification: March 7th, 2025 <br>
+        Camera-ready deadline: March 14th, 2025 <br>
+        </p>
+        </section>
+
+        <section id="submission">
+        <br>
+        <h3>Submission Guidelines</h3>
+        <p>
+        Papers must not exceed 10 pages, IEEE format, double-blind review. <br>
+        Submissions should be original and not under review elsewhere. <br>
+        Accepted papers will be published through IEEE Press. <br>
+        </p>
+        </section>
+
+        <section id="committee">
+        <br>
+        <h3>Workshop Committee</h3>
+
+       	<h3>Organizers</h3>
+
+        <p>
+       	<ul>
+	        <li> Professor Emmanouel Varvarigos, Institute of Communications and Computers Systems, NTUA, Greece (vmanos@mail.ntua.gr)</li>
+	        <li>Professor George Nikolakopoulos, Luleå University of Technology, Luleå, Sweden (george.nikolakopoulos@ltu.se)</li>
+	        <li>Professor Georgios Ellinas, KIOS Center of Excellence, University of Cyprus, Cyprus (ellinas.georgios@ucy.ac.cy)</li>
+		</ul>
+        </p>
+
+       	<h3>Committee</h3>
+        <p>
+	    <ul>
+	        <li>Panayiotis Kolios, KIOS Center of Excellence, University of Cyprus, Cyprus</li>
+	        <li>Tania Panayiotou, KIOS Center of Excellence, University of Cyprus, Cyprus</li>
+	        <li>Achilleas Seisa, Luleå University of Technology, Luleå, Sweden</li>
+	        <li>Ioannis Chatzigiannakis, Sapienza University of Rome, Italy</li>
+	        <li>Aristotelis Kretsis, ICCS, NTUA, Greece</li>
+	        <li>Polyzois Soumplis, ICCS, NTUA, Greece</li>
+	        <li>Panagiotis Kokkinos, ICCS/NTUA, University of Peloponnese, Greece</li>
+	        <li>Dimitris Syrivelis, NVIDIA, Israel</li>
+	        <li>Paraskevas Bakopoulos, NVIDIA, Israel</li>
+	        <li> Márton Sipos, Chocolate Cloud, Denmark </li>
+	        <li>Daniel Lucani, Chocolate Cloud, Aarhus University, Denmark</li>
+	        <li>Antonio Skarmeta, Universidad de Murcia, Spain</li>
+	        <li>Ivan Paez, Zettascale, France</li>
+	        <li>Luca Cominardi, Zettascale, France</li>
+	        <li>Yiannis Georgiou, RYAX, France</li>
+	        <li>Anastassios Nanos, NUBIS, Greece</li>
+	        <li>Aitor Fernandez Gomez, IDEKO, Spain</li>
+	        <li>Javier Martin, IDEKO, Spain</li>
+	        <li>Roberto Gonzalez, NEC, Germany</li>
+	        <li>Thodoris Chalazas, EV ILVO, Belgium</li>
+	        <li>Panos Ilias, EV ILVO, Belgium</li>
+	        <li> Keshav Chintamani, Tractonomy, Belgium</li>
+	        <li>Anastasios Kazolias, University of Peloponnese, Greece</li>
+            <li>Dimitris Konidaris, University of Peloponnese, Greece</li>
+        </ul>
+        </p>
+    	</section>
+
+    	<section id="keynote">
+        <br>
+        <h3>Keynote Speakers</h3>
+        <p>
+        	TBA
+        </p>
+        </section>
+
+        <section id="program">
+        <br>
+        <h3>Program</h3>
+        <p>
+            TBA
+        </p>
+        </section>
+
+        <section id="contact">
+        <br>
+        <h3>Contact Information</h3>
+        <p>
+            For any question or doubt, please reach us at kokkinop@mail.ntua.gr, akretsis@mail.ntua.gr
+        </p>
+    	</section>
+
+        <section id="supporters">
+        <br>
+        <h3>Supporters</h3>
+        <p>
+            EMPYREAN (<a href="https://empyrean-horizon.eu" target="_blank">empyrean-horizon.eu</a>) - European Union’s Horizon Research & Innovation Action (RIA) program under grant agreement No 101136024.
+            <br>
+            <img src="empyrean.png" alt="EMPYREAN EU project" style="max-width: 40%; height: auto;" />
+        </p>
+    	</section>
+
+    </div>
+</body>
+</html>
